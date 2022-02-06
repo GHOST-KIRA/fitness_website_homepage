@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    background-color:lightcyan;
+}
+header{
+    background-attachment: fixed;
+    background-image: url(../Content/fitness_freak.jpg) ;
+    padding:40px;
+   /* background-repeat: no-repeat;*/
+}
+.mainheading{
+    color:yellow;
+    font-family:'Varela Round';
+    font-size:36px;
+    font-weight:bold;
+    text-align:left;
+    position:scroll;
+}
+.mainheading2{
+    color:yellow;
+    font-family:'Varela Round';
+    font-size:28px;
+    font-weight:bold;
+    text-align:right;
+    position:relative;
+    
+    bottom:62px;
+    right:48px;
+}
+.mainheading3{
+    color:yellow;
+    font-family:'Varela Round';
+    font-size:28px;
+    font-weight:bold;
+    text-align:right;
+    position:relative;
+    bottom:52px;
+    right:38px;
+}
+nav{
+    background-color:darkorchid;
+    padding:14px;
+    display:flex;
+    border:1px solid black;
+    border-radius:none;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+    font-family:'Ubuntu';
+    padding:16px;
+    font-weight:bolder;
+}
+.alignright{
+    margin-left: auto;
+}
+nav a:hover{
+    color:black;
+    background-color: springgreen;
+    font-weight:bold;
+    border-radius:10px;
+}
+#workout{
+    font-family:'Quintessential';
+    font-size:40px;
+    text-align:center;
+}
+#equipments{
+    font-family:'Quintessential';
+    font-size:40px;
+    text-align:center;
+}
+#personaltrainer{
+    font-family:'Quintessential';
+    font-size:40px;
+    text-align:center;
+}
+/*#aerobics{
+    font-family:'Quintessential';
+    font-size:40px;
+    text-align:center;
+}*/
+#login{
+    font-family:'Quintessential';
+    font-size:40px;
+    text-align:center;
+}
+.img1{
+    float:right;
+    height:240px;
+    width:320px;
+    margin:4px;
+    /*clip-path: circle(50% at 50% 50%);*/
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    position:relative;
+    right:150px;
+    top:40px;
+
+}
+.img2{
+    float:right;
+    height:240px;
+    width:320px;
+    margin:4px;
+    /*clip-path: circle(50% at 50% 50%);*/
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    position:relative;
+    right:150px;
+    top:40px;
+
+}
+.img3{
+    float:right;
+    height:240px;
+    width:320px;
+    margin:4px; 
+    /*clip-path: circle(50% at 50% 50%);*/
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    position:relative;
+    right:150px;
+    top:40px;
+
+
+}
+.img4{
+    height:220px;
+    width:300px;
+    float:right;
+    position:relative;
+    top:60px;
+    right:8px;
+    /*clip-path: circle(50% at 50% 50%);*/
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);*/
+    padding:8px;
+   /* border:2px solid darkblue;*/
+    border-radius:6px;
+}
+.img5{
+    height:220px;
+    width:300px;
+    float:left;
+    position:relative;
+    top:60px;
+    right:8px;
+    /*clip-path: circle(50% at 50% 50%);*/
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);*/
+    padding:8px;
+    /*border:2px solid darkblue;*/
+    border-radius:6px; 
+    margin:8px;
+}
+.img6{
+    height:220px;
+    width:300px;
+    float:right;
+    position:relative;
+    top:70px;
+    right:8px;
+    /*clip-path: circle(50% at 50% 50%);*/
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);*/
+    padding:8px;
+   /* border:2px solid darkblue;*/
+    border-radius:6px; 
+}
+.img7{
+    height:220px;
+    width:300px;
+    float:left;
+    position:relative;
+    top:60px;
+    right:8px;
+    /*clip-path: circle(50% at 50% 50%);*/
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);*/
+    padding:8px;
+    /*border:2px solid darkblue;*/
+    border-radius:6px; 
+    margin:8px; 
+}
+.img8{
+    height:50%;
+    width:50%;
+    margin:40px;
+    float:left;
+    border:2px solid navy;
+}
+.subhead1{
+    font-family:'Quintessential';
+    font-size:30px;
+    font-weight:bold;
+    background-color:khaki;
+    width:46%;
+    text-align:left;
+    padding:14px;
+    border-radius:12px;
+    margin:4px;
+}
+.subhead2{
+    font-family:'Quintessential';
+    font-size:30px;
+    font-weight:bold;
+    background-color:skyblue;
+    width:46%;
+    text-align:left;
+    padding:14px;
+    border-radius:12px;
+    margin:4px;
+}
+.subhead3{
+    font-family:'Quintessential';
+    font-size:30px;
+    font-weight:bold;
+    background-color:plum;
+    width:46%;
+    text-align:left;
+    padding:14px;
+    border-radius:12px;
+    margin:4px;
+}
+.subhead4{
+    font-family:'Quintessential';
+    font-size:30px;
+    font-weight:bold;
+    background-color:palegreen;
+    
+    text-align:left;
+    padding:5px;
+    border-radius:12px;
+    margin:6px;
+}
+.subhead5{
+    font-family:'Quintessential';
+    font-size:30px;
+    font-weight:bold;
+    background-color:darkgray;
+    float:center;
+    
+    /*text-align:left;*/
+    padding:5px;
+    border-radius:12px;
+    margin:6px; 
+}
+.subhead6{
+    font-family:'Quintessential';
+    font-size:30px;
+    font-weight:bold;
+    background-color:hotpink;
+    
+    text-align:left;
+    padding:5px;
+    border-radius:12px;
+    margin:6px;
+}
+.subhead7{
+    font-family:'Quintessential';
+    font-size:30px;
+    font-weight:bold;
+    background-color:mistyrose;
+    float:center;
+    
+    /*text-align:left;*/
+    padding:5px;
+    border-radius:12px;
+    margin:6px; 
+}
+.list1{
+    font-size:18px;
+    font-family:'Farro';
+    font-weight:bold;
+}
+.list2{
+    font-size:18px;
+    font-family:'Farro';
+    font-weight:bold;
+}
+.list3{
+    font-size:18px;
+    font-family:'Farro';
+    font-weight:bold;
+}
+.para4{
+    font-size:18px;
+    font-family:cursive;
+    margin:8px;
+    text-align:left;
+}
+.para5{
+    font-size:18px;
+    font-family:cursive;
+    margin:8px;
+    text-align:justify; 
+}
+.para6{
+    font-size:18px;
+    font-family:cursive;
+    margin:8px;
+    text-align:left;
+}
+.para7{
+    font-size:18px;
+    font-family:cursive;
+    margin:8px;
+    text-align:justify;  
+}
+.para8{
+    font-family:'Dancing Script';
+    font-size:42px;
+    font-weight:500;
+    color:navy;
+}
+form{
+    font-family:'Quicksand';
+    font-size:20px;
+    text-align:justify;
+    font-weight:bolder;
+    background-color:aquamarine;
+    margin:8px;
+    overflow: hidden;
+}
+.button{
+    height:50px;
+    width:120px;
+    border:2px solid black;
+    border-radius:7px;
+    align-self: center;
+    font-family:'Grenze';
+    font-size:22px;
+    background-color:violet;
+}
+.button:hover{
+    background-color:darkviolet;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+}
